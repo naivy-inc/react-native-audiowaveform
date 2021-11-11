@@ -87,9 +87,9 @@
          uri,
          isNetwork,
          isAsset,
-         type: source.type,
-         mainVer: source.mainVer || 0,
-         patchVer: source.patchVer || 0,
+         type: source?.type,
+         mainVer: source?.mainVer || 0,
+         patchVer: source?.patchVer || 0,
        },
        componentID,
      }
